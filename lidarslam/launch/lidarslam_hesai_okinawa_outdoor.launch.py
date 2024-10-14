@@ -11,7 +11,7 @@ def generate_launch_description():
         'main_param_dir',
         default=os.path.join(
             get_package_share_directory('lidarslam'),
-            'param', 'lidarslam_hesai_outdoor_okinawa.yaml'));
+            'param', 'lidarslam_hesai_okinawa_outdoor.yaml'));
     
     rviz_param_dir = launch.substitutions.LaunchConfiguration(
         'rviz_param_dir',
